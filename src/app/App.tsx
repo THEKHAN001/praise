@@ -7,6 +7,7 @@ import FinancePage from "./pages/FinancePage";
 import SermonsPage from "./pages/SermonsPage";
 import CellGroupsPage from "./pages/CellGroupsPage";
 import AnnoucementsPage from "./pages/AnnoucementsPage";
+import MemberProfilePage from "./pages/MemberProfilePage";
 import Sidebar from "@/components/Sidebar";
 import Header from "@/components/Header";
 
@@ -20,6 +21,7 @@ export default function App() {
           <Routes>
             <Route path="/" element={<DashboardPage />} />
             <Route path="/members" element={<MembersPage />} />
+            <Route path="/members/:id" element={<MemberProfilePage />} />
             <Route path="/attendance" element={<AttendancePage />} />
             <Route path="/events" element={<EventsPage />} />
             <Route path="/finance" element={<FinancePage />} />
