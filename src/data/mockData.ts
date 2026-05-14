@@ -1,9 +1,5 @@
 import type { StatCardData } from "@/types/stats";
-import {
-  UserPlus,
-  CalendarCheck,
-  Wallet,
-} from "lucide-react";
+import { UserPlus, CalendarCheck, Wallet } from "lucide-react";
 
 export const mockDashboard: StatCardData[] = [
   {
@@ -37,7 +33,7 @@ export const mockDashboard: StatCardData[] = [
     color: "violet",
     change: "+8.7%",
     up: true,
-  }
+  },
 ];
 
 export const recentActivity = [
@@ -92,5 +88,145 @@ export const donationData = [
     amount: "$1,500",
     percent: 12,
     color: "bg-[#A16207]",
+  },
+];
+
+// export const members = [
+//   {
+//     id: 1,
+//     name: "Emanuel Mensah",
+//     email: "emanuel.m@vbci.org",
+//     phone: "+233 24 123 4567",
+//     department: "Choir",
+//     departmentColor: "bg-purple-100 text-purple-700",
+//     status: "Active",
+//     statusColor: "bg-green-100 text-green-700",
+//     image:
+//       "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200",
+//   },
+//   {
+//     id: 2,
+//     name: "Sarah Adobea",
+//     email: "s.adobea@gmail.com",
+//     phone: "+233 50 987 6543",
+//     department: "Ushering",
+//     departmentColor: "bg-orange-100 text-orange-700",
+//     status: "On Leave",
+//     statusColor: "bg-yellow-100 text-yellow-700",
+//     image:
+//       "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200",
+//   },
+//   {
+//     id: 3,
+//     name: "Kofi Owusu",
+//     email: "kofi.o@vbci.org",
+//     phone: "+233 20 555 0192",
+//     department: "Media & IT",
+//     departmentColor: "bg-blue-100 text-blue-700",
+//     status: "Active",
+//     statusColor: "bg-green-100 text-green-700",
+//     image:
+//       "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=200",
+//   },
+//   {
+//     id: 4,
+//     name: "Abena Lartey",
+//     email: "abena.lartey@yahoo.com",
+//     phone: "+233 24 444 8888",
+//     department: "Welfare",
+//     departmentColor: "bg-gray-200 text-gray-700",
+//     status: "Inactive",
+//     statusColor: "bg-gray-200 text-gray-700",
+//     image:
+//       "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=200",
+//   },
+// ];
+
+export const members = [
+  {
+    id: 1,
+    name: "Emanuel Mensah",
+    email: "emanuel.m@vbci.org",
+    phone: "+233 24 123 4567",
+    department: "Choir",
+    departmentColor: "bg-gray-200 text-gray-700",
+    status: "Active",
+    statusColor: "bg-green-100 text-green-700",
+    image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200",
+    joinDate: "January 12, 2018",
+    cellGroup: "Victory Heights A2",
+    maritalStatus: "Married",
+    totalTithes: "₵4,250",
+    attendanceRate: "88%",
+  },
+
+  {
+    id: 2,
+    name: "Sarah Adobea",
+    email: "s.adobea@gmail.com",
+    phone: "+233 50 987 6543",
+    department: "Ushering",
+    departmentColor: "bg-gray-200 text-gray-700",
+    status: "On Leave",
+    statusColor: "bg-green-100 text-green-700",
+    image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200",
+    joinDate: "March 18, 2020",
+    cellGroup: "Grace Family",
+    maritalStatus: "Single",
+    totalTithes: "₵2,100",
+    attendanceRate: "74%",
+  },
+
+  {
+    id: 3,
+    name: "Kofi Owusu",
+    email: "kofi.o@vbci.org",
+    phone: "+233 20 555 0192",
+    department: "Media & IT",
+    departmentColor: "bg-gray-200 text-gray-700",
+    status: "On Leave",
+    statusColor: "bg-green-100 text-green-700",
+    image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=200",
+    joinDate: "January 18, 2016",
+    cellGroup: "Grace Family",
+    maritalStatus: "Single",
+    totalTithes: "₵2,100",
+    attendanceRate: "74%",
+  },
+
+  {
+    id: 4,
+    name: "Abena Lartey",
+    email: "abena.lartey@yahoo.com",
+    phone: "+233 24 444 8888",
+    department: "Welfare",
+    departmentColor: "bg-gray-200 text-gray-700",
+    status: "Inactive",
+    statusColor: "bg-green-200 text-green-700",
+    image: "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=200",
+    joinDate: "March 1, 2020",
+    cellGroup: "Hope Family",
+    maritalStatus: "Maried",
+    totalTithes: "₵2,100",
+    attendanceRate: "74%",
+  },
+];
+
+export const mockMemberProfile: StatCardData[] = [
+  {
+    label: "Total Members",
+    value: "24,512",
+    icon: "Users",
+    color: "blue",
+    change: "+12%",
+    up: true,
+  },
+  {
+    label: "Attendance Today",
+    value: "1,084",
+    icon: "ShoppingCart",
+    color: "green",
+    change: "+4.3%",
+    up: true,
   },
 ];
