@@ -91,57 +91,6 @@ export const donationData = [
   },
 ];
 
-// export const members = [
-//   {
-//     id: 1,
-//     name: "Emanuel Mensah",
-//     email: "emanuel.m@vbci.org",
-//     phone: "+233 24 123 4567",
-//     department: "Choir",
-//     departmentColor: "bg-purple-100 text-purple-700",
-//     status: "Active",
-//     statusColor: "bg-green-100 text-green-700",
-//     image:
-//       "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200",
-//   },
-//   {
-//     id: 2,
-//     name: "Sarah Adobea",
-//     email: "s.adobea@gmail.com",
-//     phone: "+233 50 987 6543",
-//     department: "Ushering",
-//     departmentColor: "bg-orange-100 text-orange-700",
-//     status: "On Leave",
-//     statusColor: "bg-yellow-100 text-yellow-700",
-//     image:
-//       "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200",
-//   },
-//   {
-//     id: 3,
-//     name: "Kofi Owusu",
-//     email: "kofi.o@vbci.org",
-//     phone: "+233 20 555 0192",
-//     department: "Media & IT",
-//     departmentColor: "bg-blue-100 text-blue-700",
-//     status: "Active",
-//     statusColor: "bg-green-100 text-green-700",
-//     image:
-//       "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=200",
-//   },
-//   {
-//     id: 4,
-//     name: "Abena Lartey",
-//     email: "abena.lartey@yahoo.com",
-//     phone: "+233 24 444 8888",
-//     department: "Welfare",
-//     departmentColor: "bg-gray-200 text-gray-700",
-//     status: "Inactive",
-//     statusColor: "bg-gray-200 text-gray-700",
-//     image:
-//       "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=200",
-//   },
-// ];
-
 export const members = [
   {
     id: 1,
@@ -228,5 +177,83 @@ export const mockMemberProfile: StatCardData[] = [
     color: "green",
     change: "+4.3%",
     up: true,
+  },
+];
+
+export const mockFinance: StatCardData[] = [
+  {
+    label: "Total Members",
+    value: "24,512",
+    icon: "Users",
+    color: "blue",
+    change: "+12%",
+    up: true,
+  },
+  {
+    label: "Attendance Today",
+    value: "1,084",
+    icon: "ShoppingCart",
+    color: "green",
+    change: "+4.3%",
+    up: true,
+  },
+  {
+    label: "Total Donations",
+    value: "$98.4k",
+    icon: "DollarSign",
+    color: "amber",
+    change: "-2.1%",
+    up: false,
+  },
+  {
+    label: "Upcoming Events",
+    value: "3,290",
+    icon: "Activity",
+    color: "violet",
+    change: "+8.7%",
+    up: true,
+  },
+];
+
+export const transactions = [
+  {
+    name: "Samuel Adjei",
+    amount: "$1,200.00",
+    type: "Tithe",
+    date: "Oct 24, 2023",
+    method: "Bank Transfer",
+    initials: "SA",
+  },
+  {
+    name: "Elizabeth Osei",
+    amount: "$250.00",
+    type: "Offering",
+    date: "Oct 22, 2023",
+    method: "Cash",
+    initials: "EO",
+  },
+  {
+    name: "Kwame Mensah",
+    amount: "$5,000.00",
+    type: "Seed",
+    date: "Oct 20, 2023",
+    method: "Credit Card",
+    initials: "KM",
+  },
+  {
+    name: "Abena Appiah",
+    amount: "$800.00",
+    type: "Tithe",
+    date: "Oct 19, 2023",
+    method: "Bank Transfer",
+    initials: "AA",
+  },
+  {
+    name: "John Boateng",
+    amount: "$100.00",
+    type: "Offering",
+    date: "Oct 18, 2023",
+    method: "Cash",
+    initials: "JB",
   },
 ];
